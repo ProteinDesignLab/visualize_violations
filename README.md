@@ -6,10 +6,10 @@ This is a script for visualizing violated predictions in PyMol.
 
 ## Instructions
 
-Since this requires a GUI, you will have to `scp` this folder onto your local computer, with a command like:
+First, clone this onto your local computer, with a command like:
 
 ```
-scp -r <username>@login.sherlock.stanford.edu:/oak/stanford/projects/pfold/visualize_violations ./
+git clone https://github.com/ProteinDesignLab/visualize_violations.git
 ```
 
 Then, place the following files into the `files` folder, where `<prot_id>` is the CAMEO ID e.g. `2020-02-29_000000219_2`.
